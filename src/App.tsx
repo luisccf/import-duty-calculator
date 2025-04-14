@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { BrazilTaxCalculator } from "./taxCalculator/brazilTaxCalculator";
-import { Currency } from "./currency";
+import { Currency } from "./components/currency";
 
 const DUTY_RATE_UP_TO_50 = 0.2;
 const DUTY_RATE_ABOVE_50 = 0.6;
